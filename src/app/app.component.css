@@ -1,0 +1,39 @@
+.default-bg {
+    background-color: #3498db; /* Default background color */
+  }
+  
+  .custom-bg {
+    background-color: #e74c3c; /* Custom background color */
+  }
+  .banner {
+    position: relative;
+    max-width: 100%;
+  }
+  .banner {
+   
+    text-align: center; /* Center-align the text and watermark */
+  }
+  
+  .watermark {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    opacity: 0.5; /* Adjust the opacity of the watermark as needed */
+  }
+  .banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Add additional CSS styles as needed */
+  /* Adjust banner font size for smaller screens */
+@media screen and (max-width: 768px) {
+    .banner h1 {
+      font-size: 24px;
+    }
+    .banner p {
+      font-size: 16px;
+    }
+  }
+  
