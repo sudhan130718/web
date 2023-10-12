@@ -20,12 +20,17 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/feature/feature">Go to Feature</a>
+      </li>
     </ul>
     <button  (click)="toggleBackgroundColor()">Toggle Background Color</button>
 
   </div>
 </div>
 </nav>
+
+
 <div class="banner">
   <img src="assets/r2.jpg" alt="Background Image" />
   <h1 class="watermark">Prashith Maha Sudharson</h1>
@@ -42,6 +47,7 @@
   </li>
 </ul>
 
+
 <div class="container p-5 my-5 bg-primary text-white">
   <img src="assets\images\fashion1\blog\1.jpg" class="img-thumbnail" />
 
@@ -55,7 +61,10 @@
       <img src="assets/images/fashion1/blog/2.jpg" class="img-fluid" />
     </div>
     <div class="col-12 col-md-4 mb-3">
-      <img src="assets/images/fashion1/blog/3.jpg" class="img-fluid rounded-circle" />
+      <img
+        src="assets/images/fashion1/blog/3.jpg"
+        class="img-fluid rounded-circle"
+      />
     </div>
     <div class="col-12 col-md-4 mb-3">
       <img src="assets/images/fashion1/blog/4.jpg" class="img-fluid" />
@@ -63,7 +72,7 @@
   </div>
 </div>
 
-
+<router-outlet></router-outlet>
 <div class="container p-5 my-5">
 <div class="row">
   <div class="col-12 col-md-6 mb-3">
@@ -88,7 +97,7 @@
       <h2>LITTLE PRINCESS</h2>
       <p>Sowkanthika</p>
       <div class="card" >
-        <img class="card-img-top img-fluid" src="assets/2.jpg" alt="Card image" style="width:100%">
+        <img class="card-img-top img-fluid" src="assets/2.jpg" routerLink="/sachin" alt="Card image" style="width:100%">
         <div class="card-body">
           <h4 class="card-title">Prashith (Little Master) </h4>
           <h4 class="card-title">Prashith (Leo Master) </h4>
