@@ -1,1 +1,3 @@
-<p>feature works!</p>
+<h3 [ngClass]="getCssClasses()" [ngStyle]="currentStyles">Welcome to Cricket World!</h3>
+<button (click)="getCssClasses()">change...</button>
+<h5 [ngClass]="{'special-class': !isSpecial, 'default-class': isSpecial }">This Cricket Stars were Make my Childhood Happy!</h5>

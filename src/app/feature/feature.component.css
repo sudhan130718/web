@@ -1,0 +1,10 @@
+/* styles.css or special-styles.css */
+.special-class {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .default-class {
+    color: blue;
+    font-style: italic;
+  }
